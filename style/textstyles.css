@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-jan-2016, 15:26:43
+    Author     : Casper
+*/
+
+.text-type1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #888;
+    font-weight: normal;
+    font-size: 25pt;
+}
+
+.text-type4{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    color: black;
+}
+
+.text-type2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #888;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.text-type3{
+    color: #888;
+    text-align:center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16pt;
+}

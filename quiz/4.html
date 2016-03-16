@@ -1,0 +1,83 @@
+<div class="container quiz-container" style="text-align:center;" ng-controller="PickManyCtrl" ng-cloak>
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h2>{{title}}</h2> 
+		</div>
+	</div>
+	<div id="pickmany" class="quiz-btn">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<input id="0" type="checkbox" />
+				<label for="0" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(0)">
+					{{data[0]}}
+				</label>
+			</div>
+			<div class="col-sm-4">
+				<input id="5" type="checkbox" />
+				<label for="5" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(5)">
+					{{data[5]}}
+				</label>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<input id="1" type="checkbox" />
+				<label for="1" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(1)">
+					{{data[1]}}
+				</label>
+			</div>
+			<div class="col-sm-4">
+				<input id="6" type="checkbox" />
+				<label for="6" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(6)">
+					{{data[6]}}
+				</label>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<input id="2" type="checkbox" />
+				<label for="2" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(2)">
+					{{data[2]}}
+				</label>
+			</div>
+			<div class="col-sm-4">
+				<input id="7" type="checkbox" />
+				<label for="7" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(7)">
+					{{data[7]}}
+				</label>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<input id="3" type="checkbox" />
+				<label for="3" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(3)">
+					{{data[3]}}
+				</label>
+			</div>
+			<div class="col-sm-4">
+				<input id="8" type="checkbox" />
+				<label for="8" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(8)">
+					{{data[8]}}
+				</label>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<input id="4" type="checkbox" />
+				<label for="4" class="btn btn-primary btn-lg" style="width:100%; white-space: normal; text-align:left" ng-click="toggleAnswer(4)">
+					{{data[4]}}
+				</label>
+			</div>
+		</div>
+	</div>
+		
+
+	<div class="pop-up-correct" style="text-align:center;">
+		<button type="button" class="btn btn-primary" ng-click="checkAnswer(getAnswer())">Submit</button>
+	</div>
+</div>
+
+

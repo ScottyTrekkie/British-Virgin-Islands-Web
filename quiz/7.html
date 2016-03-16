@@ -1,0 +1,26 @@
+<link href="./style/range.css" rel="stylesheet"> 
+
+<div class="container quiz-container" style="text-align:center;" ng-controller="RangeCtrl" ng-cloak>
+
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h2>{{title}}</h2> 
+		</div>
+	</div>
+	
+	<div class="row">
+		<span class="percentage">0</span>
+		<input id="slide" type="range" min="0" max="100" step="10" value="{{value}}" ng-model="value"/>
+	</div>
+	
+	<div class="row pop-up-correct" tyle="text-align:center;">
+		<button type="button" id="submit" class="btn btn-primary" ng-click="checkAnswer(value)">Submit</button>
+	</div>
+
+</div>
+
+<script>
+$("#slide").mousemove( function(e){
+    $(".percentage").html($(this).val());
+});
+</script>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Botswana Portfolio</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Khwai Tented Camp</data>
+	</question>
+	<question>
+		<type>1</type>
+		<question>Khwai Tented Camp has the romance of a small mobile camp. How many guests can the camp accommodate?</question>
+		<data>6</data>
+		<data>8</data>
+		<data>10</data>
+		<data>12</data>
+		<data>14</data>	
+		<answer>4</answer>
+		<correct>That is correct. Only 6 luxury tents with a total of 12 beds!</correct>
+		<incorrect>Incorrect. Please tap the info icon on the Khwai Tented Camp page. After you have done that, this one will be easy to answer!</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Linyanti Bush Camp</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Linyanti Ebony</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Saile Tented Camp</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Footsteps Across the Linyanti</data>
+	</question>
+	<question>
+		<type>3</type>
+		<question>African Bush Camps runs camps in two wildlife areas in Botswana. Do you know where? Please drag the name of the Camp to the wildlife area.</question>
+		<data>Khwai Community Area</data>
+		<data>Linyanti Wildlife Reserve</data>
+		<data>Central Kalahari Game Reserve</data>
+		<data>Makgadikgadi National Park</data>
+		<data>No camp yet</data>	
+		<data>No camp yet</data>	
+		<data>Khwai Tented Camp</data>	
+		<data>Saile Tented Camp</data>	
+		<answer>Khwai Tented Camp,Saile Tented Camp,No camp yet,No camp yet</answer>
+		<correct>Correct...</correct>
+		<incorrect>Incorrect. Go through the chapter again and give it another try.</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Zimbabwe Portfolio</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Somalisa Camp</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Somalisa Acacia</data>
+	</question>
+	<question>
+		<type>4</type>
+		<question>While visiting Somalisa Acacia you can enjoy several activities for free. Do you know which?</question>
+		<data>Game drives</data>
+		<data>Canoe safari</data>
+		<data>Game walks</data>
+		<data>Dance lessons</data>
+		<data>Rock climbing</data>
+		<data>Bird watching</data>	
+		<data>Para-sail</data>	
+		<data>Night drives</data>
+		<data>Game viewing from hides</data>	
+		<answer>true,false,true,false,false,true,false,true,true</answer>
+		<correct>That's right! All of these activities are included in your stay at Somalisa &amp; Somalisa Acacia. Check all the camp essentials (the 'i' icon) to see what else is included.</correct>
+		<incorrect>Almost. Please try again. Also check the Camp Essentials infographic to answer this question.</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Kanga Camp</data>
+	</question>
+	<question>
+		<type>5</type>
+		<question>If your clients want to travel to Kanga Camp, they can choose a (Safari Logistics) road transfer or an air transfer. What is the flight time from Harare to Mana Pools/Kanga? (The first dial is for 'hours' the other two for 'minutes')</question>
+		<answer>130</answer>
+		<correct>That is correct! The flight time from Harare to Mana Pools is only 1 hour and 30 minutes. The flight time from Victoria Falls to Mana Pools is 2 hours and 30 minutes.</correct>
+		<incorrect>Sorry, please check the Camp Essentials to find the correct answer.</incorrect>
+	</question>	
+	<question>
+		<type>12</type>
+		<data>23</data>
+		<data>Zambezi Life Styles</data>
+	</question>
+	<question>
+		<type>6</type>
+		<question>While staying at Zambezi Life Styles you can enjoy several activities. One activity is not on the option list on this part of the Zambezi river. Click the one that is not on the Zambezi Life Styles Acrtivity List!</question>
+		<data>fishing.png</data>
+		<data>birdwatching.png</data>
+		<data>sailing.png</data>
+		<data>walkingsafari.png</data>
+		<data>gamedrives.png</data>
+		<data>canoesafari.png</data>
+		<answer>3</answer>
+		<correct>Correct! Good Job!</correct>
+		<incorrect>Incorrect, please try again.</incorrect>
+	</question>	
+	<finish>Congratulations, you have successfully completed Chapter 6: Our Portfolio</finish>
+</quiz>

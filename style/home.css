@@ -1,0 +1,28 @@
+
+.menu{
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.item{
+    position: static;
+    float: left;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    margin-left: 0cm;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.logopic{
+   width: 100%;
+}

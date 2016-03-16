@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question>
+		<type>12</type>
+		<data>21</data>
+		<data>Safari Logistics</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>21</data>
+		<data>Safari Logistics Road Transfers</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>21</data>
+		<data>Safari Logistics Air Transfers</data>
+	</question>
+	<question>
+		<type>10</type>
+		<question>Safari Logistics operates scheduled flights every day in the high season (May - October) and on Tuesdays, Thursdays &amp; Sunday in the low season (November to April). There is a baggage restriction of how many kg per person in a soft duffle bag? (tap on the button to start the automatic slider).</question>
+		<answer>true</answer>
+		<correct>You are right. There is a baggage restriction of 20 kg per person in a soft duffle bag.</correct>
+		<incorrect>Incorrect. Please try again!</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>21</data>
+		<data>Activities</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>21</data>
+		<data>What to pack?</data>
+	</question>
+	<finish>Congratulations, you have successfully completed Chapter 4: Safari Logistics and passed another portion of the Safari Master&#8482; Exam.</finish>
+</quiz>

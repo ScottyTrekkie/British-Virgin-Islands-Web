@@ -1,0 +1,144 @@
+h2 {
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+	color: black;
+	padding-bottom:20px;
+}
+
+.percentage {
+	font-size: 150%;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+ 
+.quiz-container .row {
+    margin-bottom: 20px; 
+}
+.quiz-container  h1 {
+    margin-bottom: 30px; 
+}
+.quiz-connecting-line {
+	height: 10px;
+	background-color: white;
+	border: 1px solid #bbb;
+    margin-top:25px;
+}
+
+.btn-block {
+    cursor: move;   
+}
+
+/***********************
+  WHITE BUTTONS
+************************/
+
+ 
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { 
+	font-size: 16pt;
+	content: "\f1db";
+	color: #ccc;
+} /* unchecked icon */
+input[type=checkbox] + label:before { 
+	font-size: 16pt;
+	letter-spacing: 10px; 
+} /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { 
+	content: "\f058"; 
+	color: rgb(52, 128, 198);
+} /* checked icon */
+input[type=checkbox]:checked + label:before { 
+
+} /* allow space for check mark */
+
+.quiz-btn .round {
+	border-radius: 20px;
+}
+
+.quiz-btn .btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.quiz-btn .btn-primary.outline {
+    border: 1px solid #ddd;
+    color: #ddd;
+}
+.quiz-btn .btn-primary.outline:hover, 
+.quiz-btn .btn-primary.outline:focus, 
+.quiz-btn .btn-primary.outline:active, 
+.quiz-btn .btn-primary.outline.active, 
+.quiz-btn .open > .dropdown-toggle.btn-primary {
+    color: #000000;
+    border: 1px solid #ddd;
+}
+
+.quiz-btn .btn-primary.outline:active, 
+.quiz-btn .btn-primary.outline.active {
+    border: 1px solid #ddd;
+    color: #000000;
+}
+
+.quiz-btn .btn {
+	margin:3px;
+	padding: 14px 24px;
+    border: 1px solid #ddd;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.quiz-btn .btn:focus, 
+.quiz-btn .btn:active,
+.quiz-btn .btn:active:focus, 
+.quiz-btn .btn.active:focus {
+	outline: 0 none;
+}
+
+.quiz-btn .btn-primary {
+	color: #000;
+	background-color: #fff;
+	border-color: #ddd;
+}
+.quiz-btn .btn-primary:focus,
+.quiz-btn .btn-primary.focus {
+	color: #000;
+	background-color: #fff;
+	border-color: #ddd;
+}
+.quiz-btn .btn-primary:hover {
+	color: #000;
+	background-color: #fff;
+	border-color: #ddd;
+}
+.quiz-btn .btn-primary:active,
+.quiz-btn .btn-primary.active,
+.quiz-btn .open > .dropdown-toggle.btn-primary {
+	color: #000;
+	background-color: #fff;
+	border-color: #ddd;
+}
+.quiz-btn .btn-primary:active:hover,
+.quiz-btn .btn-primary.active:hover,
+.quiz-btn .open > .dropdown-toggle.btn-primary:hover,
+.quiz-btn .btn-primary:active:focus,
+.quiz-btn .btn-primary.active:focus,
+.quiz-btn .open > .dropdown-toggle.btn-primary:focus,
+.quiz-btn .btn-primary:active.focus,
+.quiz-btn .btn-primary.active.focus,
+.quiz-btn .open > .dropdown-toggle.btn-primary.focus {
+	color: #000;
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+.quiz-btn .btn-primary.disabled {
+	opacity: 1;
+}
+
+.column.over {
+  border: 2px dashed #000;
+}

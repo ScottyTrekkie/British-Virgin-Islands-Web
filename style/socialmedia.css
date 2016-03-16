@@ -1,0 +1,12 @@
+ .socialmediaButton {
+    position: fixed;
+    bottom: 10px; 
+    right: 0px;
+}
+
+.socialMediaIcon {
+    width: 8.5%;
+    height: 8.5%;
+    padding: 6px;
+}
+

@@ -1,0 +1,117 @@
+<div class="modal-body">
+	<button type="button" class="close" ng-click="no()" aria-hidden="true">&times;</button>
+	
+	<div class="login-container">
+	
+		<div class="login-left">
+			<div class="img-responsive" id="logo"></div>
+		</div>
+		
+		<div class="login-right">
+		  
+			<ng-include src="template"></ng-include>
+			
+			<script type="text/ng-template" id="welcome">
+			
+				<p>
+					Welcome to the African Bush Camps Companion&trade;. Your new virtual partner in discovering some of the most authentic safari experiences in Southern Africa.
+				</p>
+				<p class="orange bold">
+					Quick Question: <br />
+					do you professionally sell travel experience?
+				</p>
+				<div align="center">
+					<button type="button" class="btn btn-primary round outline" ng-click="no()">NO</button>
+					<button type="button" class="btn btn-primary round" ng-click="yes()">YES</button>
+				</div>
+
+			</script>
+			
+			<script type="text/ng-template" id="email">
+			
+				<p class="orange bold">
+					We want to make it as easy as possible to register and get you on your way to continued discovery and sales training for this inspired destination.
+				</p>
+				
+				<p class="small">
+					To expedite registration, simply enter your business email address below and we will check our IATA, ARC and CLIA records to see if we can find you. This information will only be shared with African Bush Camps.
+				</p>
+				
+				<div class="alert alert-danger {{$parent.hideerror}}" role="alert">
+				  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				  <span class="sr-only">Error:</span>
+				  {{$parent.emailerror}}
+				</div>
+				
+				<div class="form-group {{$parent.emailclass}}">
+					<label class="gray small bold" for="email">Email address:</label>
+					
+					<div class="input-group margin-bottom-sm">
+						<span class="input-group-addon"><i class="fa fa-envelope fa-fw"></i></span>
+						<input class="form-control" type="email" ng-keyup="validateemail()" ng-model="$parent.email" required>
+						<span class="glyphicon glyphicon-ok form-control-feedback {{$parent.hidesuccessglyph}}" aria-hidden="true"></span>
+					</div>
+					
+					<br />
+					<div align="center">
+						<button type="button" class="btn btn-primary round" ng-click="submitEmail()"> SUBMIT</button>
+					</div>
+				</div>
+				
+			</div>
+			</script>
+			
+			<script type="text/ng-template" id="newProfile">
+				<p class="orange bold">
+					{{$parent.message}}
+				</p>
+				
+				<hr>
+				
+				<label class="gray small bold" for="email">Email address:</label>
+				<input class="form-control" type="email" id="email" ng-model="$parent.emailnew" required>
+				
+				
+				<div style="display:table; width:100%">
+					<div style="display: table-cell; padding-right: 5px;">
+						<label class="gray small bold" for="fname">Firstname:</label>
+						<input class="form-control" type="text" id="firstname" ng-model="$parent.firstname">
+					</div>
+					<div style="display: table-cell;">
+						<label class="gray small bold" for="lname">Lastname:</label>
+						<input class="form-control" type="text" id="lastname" ng-model="$parent.lastname">
+					</div>
+				</div>
+				
+				
+				<label class="gray small bold" for="lname">Agency name:</label>
+				<input class="form-control" type="text" id="agency" ng-model="$parent.agency">
+				
+				
+				<label class="gray small bold" for="lname">State/Province:</label>
+				<input class="form-control" type="text" id="state" ng-model="$parent.state">
+				
+				<div style="padding: 10px;" align="center">
+					<button type="button" class="btn btn-primary round outline" ng-click="tryAgain()">TRY AGAIN</button>
+					<button type="button" class="btn btn-primary round" ng-click="submitProfile()">SUBMIT</button>
+				</div>
+			</script>
+			
+			<script type="text/ng-template" id="recordFound">
+				<p class="bold">
+					Good news, we found an existing record that might match.
+				</p>
+				<br>
+				<p class="">
+					Are you {{$parent.firstname}} from {{$parent.agency}} in {{$parent.state}}?
+				</p>
+				<br>
+				<div align="center">
+					<button type="button" class="btn btn-primary round outline" ng-click="yes()">NO</button>
+					<button type="button" class="btn btn-primary round" ng-click="newProfile(true)">YES</button>
+				</div>
+			</script>
+			
+		</div>
+	</div>
+</div>

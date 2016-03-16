@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="style/slider.css">
+
+<div style="text-align:center;" ng-controller="sliderCtrl" ng-cloak>
+	
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h2>{{title}}</h2> 
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="slider">
+			<div class="mover" style="margin-left: {{pos}}px">
+				<div class="whiteborder"></div>
+				<div class="half-circle">{{kilo}} kg</div>
+				<div class="arrow-down-left"></div>
+				<div class="arrow-down-right"></div>
+				<div class="arrow-down-middle"></div>
+			</div>
+			<div class="measure">
+				<div class="scale">
+					<div class="ruler"></div>
+				</div>
+				<div class="labels">
+					<div class="lbl separator" style="color: rgb(102, 177, 157)">8 - 12 kg</div>
+					<div class="lbl separator" style="color: rgb(168, 103, 109)">13 - 17 kg</div>
+					<div class="lbl separator" style="color: rgb(129, 161, 172)">18 - 22 kg</div>
+					<div class="lbl separator" style="color: rgb(171, 125, 151)">23 - 27 kg</div>
+					<div class="lbl" style="color: rgb(187, 78, 75)">28 - 32 kg</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br />
+	<div class="pop-up-correct">
+		<button type="button" class="btn btn-primary" ng-click="checkAnswer(toggleMove())">{{buttonText}}</button>
+	</div>
+</div>

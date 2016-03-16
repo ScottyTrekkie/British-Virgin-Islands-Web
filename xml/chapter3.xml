@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Zimbabwe: Again emerging as a Top Safari Destination</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Hwange National Park</data>
+	</question>
+	<question>
+		<type>9</type>
+		<question>Hwange National Park is located between Victoria Falls and Bulawayo, bordering Botswana, with an average altitude of 1,000m above sea level. Choose which picture is taken in Hwange NP.</question>
+		<data>1.png</data>
+		<data>2.png</data>
+		<data>3.png</data>
+		<data>4.png</data>
+		<answer>1</answer>
+		<correct>You got it correct! The Xerophile vegetation in Hwange National Park is unmistakable.</correct>
+		<incorrect>Sorry, incorrect. Please try again!</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Mana Pools</data>
+	</question>
+	<question>
+		<type>11</type>
+		<question>In the Shona language, 'Mana' stands for a number: the reference to the number of pools. Do you know how many pools there are?</question>
+		<answer>4</answer>
+		<correct>You are correct!</correct>
+		<incorrect>Not quite. Less than fingers on one hand!</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Victoria Falls</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Matusadona &amp; Lake Kariba</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Matobo Hills</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Great Zimbabwe Ruins</data>
+	</question>	
+	<question>
+		<type>12</type>
+		<data>35</data>
+		<data>Gonarezhou National Park</data>
+	</question>		
+	<finish>Congratulations, you have successfully completed Chapter 3: Destination Zimbabwe and passed another portion of the Safari Master&#8482; Exam.</finish>
+</quiz>

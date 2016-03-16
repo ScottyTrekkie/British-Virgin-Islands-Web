@@ -1,0 +1,123 @@
+.slider {
+	margin: 30px auto 0 auto;
+	width: 750px;
+	height: 165px;
+}
+
+.measure {
+	width: 750px;
+	height: 95px;
+	background-color: rgb(242,243,237);
+}
+
+.mover {
+	margin-left:0px;
+	width: 145px;
+	height: 70px;
+	background-color: rgba(187, 24, 17, .8);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.whiteborder {
+	position:absolute;
+	margin-left:-3px;
+	width:151px;
+	height:35px;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    border-top: 6px solid white;
+	border-left: 6px solid white;
+	border-right: 6px solid white;
+}
+
+.arrow-down-left {
+	position:absolute;
+	margin-left:-15px;
+	margin-top:34px;
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid white;
+}
+
+.arrow-down-right {
+	position:absolute;
+	margin-left:130px;
+	margin-top:34px;
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid white;
+}
+
+.arrow-down-middle {
+	position:absolute;
+	margin-left:65px;
+	margin-top:6px;
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 8px solid white;
+}
+
+.half-circle {
+	position:absolute;
+	margin-left:36px;
+	margin-top:-15px;
+	height:15px;
+	width:72px;
+	border-radius: 50% / 100%;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+	-moz-border-radius: 50% / 100%;
+	-webkit-border-radius: 50% / 100%;
+	-moz-border-bottom-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	background:white;
+	font-size:11pt;
+	text-align:center;
+}
+
+
+.scale {
+	border-top: 2px solid rgb(209, 209, 209);
+	width: 100%;
+	height: 50%;
+	padding:1% 2% 1% 2%;
+	background-color: white;
+}
+
+.ruler {
+	border: 2px solid rgb(174, 174, 174);
+	width: 100%;
+	height:100%;
+	background-image: url('../content/images/scale.png');
+	background-repeat: repeat-x;	
+}
+
+.labels {
+	border-bottom: 2px solid rgb(209, 209, 209);
+	width: 100%;
+	height: 50%;
+	padding-top:1%;
+	padding-bottom:1%;
+	vertical-align:middle;
+}
+
+.lbl {
+	float: left;
+	width: 20%;
+	height: 100%;
+	font-size: 18pt;
+	text-align: center;
+}
+
+.separator {
+	border-right: 2px solid rgb(209, 209, 209);
+}

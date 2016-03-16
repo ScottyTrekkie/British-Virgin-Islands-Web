@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>African Bush Camps Foundation</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>What we do</data>
+	</question>
+	<question>
+		<type>2</type>
+		<question>In both Zimbabwe and Botswana the African Bush Camps Foundation is involved in 4 main areas:</question>
+		<data>Education</data>
+		<data>Income-generation</data>
+		<data>Higher Production</data>
+		<data>Conservation</data>
+		<data>Community Events</data>
+		<answer>true,true,false,true,true</answer>
+		<correct>Correct.</correct>
+		<incorrect>Incorrect. Please try again!</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>How we do it</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>Education</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>Community Empowerment</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>Conservation</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>60</data>
+		<data>Community Infrastructure</data>
+	</question>
+	<finish>Congratulations, you have successfully completed Chapter 5: African Bush Camps Foundation and the Final Portion of the Safari Master&#8482; Exam. Next you will receive your personalized Safari Master Diploma Certificate. While that loads, we ask you to fill out a brief survey to share your opinions with us.</finish>
+</quiz>

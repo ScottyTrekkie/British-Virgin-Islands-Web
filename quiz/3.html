@@ -1,0 +1,78 @@
+<!-- Custom styles for this template -->
+<link href="style/mystyle.css" rel="stylesheet">
+<link href="style/quiz-style.css" rel="stylesheet">
+
+<!-- Used a jQuery solution instead of an AngularJS solution here -->
+<script>loadDrag();</script>
+
+<div class="container quiz-container" style="text-align:center;" ng-controller="DragDropCtrl" ng-cloak>
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h2>{{title}}</h2> 
+		</div>
+	</div>
+	<div class="quiz-btn">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-1 ">
+				<a class="btn btn-primary btn-lg disabled" style="width: 100%" role="button">{{data[0]}}</a>
+			</div>
+			<div class="col-sm-2">
+				<div class="quiz-connecting-line"></div>
+			</div>
+			<div class="col-sm-4">
+				<a class="btn btn-primary btn-lg column" style="width: 100%; text-align:left" id="answer1" role="button" draggable="true">
+					<i class="fa fa-align-justify fa-lg" style="margin-right:20px" aria-hidden="true"></i>{{data[4]}}
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-1">
+				<a class="btn btn-primary btn-lg disabled" style="width: 100%" role="button">{{data[1]}}</a>
+			</div>
+			<div class="col-sm-2">
+				<div class="quiz-connecting-line"></div>
+			</div>
+
+			<div class="col-sm-4">
+				<a class="btn btn-primary btn-lg column" style="width: 100%; text-align:left" id="answer2" role="button" draggable="true">
+					<i class="fa fa-align-justify fa-lg" style="margin-right:20px" aria-hidden="true"></i>{{data[5]}}
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-1">
+				<a class="btn btn-primary btn-lg disabled" style="width: 100%" role="button">{{data[2]}}</a>
+			</div>
+			<div class="col-sm-2">
+				<div class="quiz-connecting-line"></div>
+			</div>
+			<div class="col-sm-4">
+				<a class="btn btn-primary btn-lg column" style="width: 100%; text-align:left" id="answer3" role="button" draggable="true">
+					<i class="fa fa-align-justify fa-lg" style="margin-right:20px" aria-hidden="true"></i>{{data[6]}}
+				</a>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-1">
+				<a class="btn btn-primary btn-lg disabled" style="width: 100%" role="button">{{data[3]}}</a>
+			</div>
+			<div class="col-sm-2">
+				<div class="quiz-connecting-line"></div>
+			</div>
+			<div class="col-sm-4">
+				<a class="btn btn-primary btn-lg column" style="width: 100%; text-align:left" id="answer4" role="button" draggable="true">
+					<i class="fa fa-align-justify fa-lg" style="margin-right:20px" aria-hidden="true"></i>{{data[7]}}
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="pop-up-correct" style="text-align:center;">
+		<button type="button" class="btn btn-primary" ng-click="checkAnswer(getAnswer())">Submit</button>
+	</div>
+</div>
+
+

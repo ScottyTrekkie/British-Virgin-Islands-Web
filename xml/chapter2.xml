@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Botswana: The Perfect Safari Destination</data>
+	</question>
+	<question>
+		<type>7</type>
+		<question>Botswana is a perfect safari destination, a large part of the country is reserved for natural parks and vast private game reserves. Do you know what percentage of land is reserved for wildlife? (Slide the white dot below to the right and stop on the correct percent)</question>
+		<answer>40</answer>
+		<correct>That's right! This immense fenceless territory enables huge herds to roam freely in this land of staggering beauty.</correct>
+		<incorrect>Incorrect. Try again.</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Khwai Community Area</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Linyanti Wildlife Reserve</data>
+	</question>
+	<question>
+		<type>8</type>
+		<question>The magnificent area of the Linyanti Wildlife Reserve boasts unparalleled wildlife encounters. The ______ is the best season to visit for abundant wildlife sightings.</question>
+		<answer>Dry Season</answer>
+		<correct>That's right! Wildlife is at its most dense during the dry season (May/June to October), as they gather at scarce water sources.</correct>
+		<incorrect>Incorrect. Try again.</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>The Okavango Delta</data>
+	</question>
+	<question>
+		<type>5</type>
+		<question>The Okavango Delta is one of the most beautiful safari-destinations in the world. Tourists are attracted to this region because of the remarkable numbers of species in the Delta. How many mammal species can you find here?</question>
+		<answer>164</answer>
+		<correct>That's right. You can find 164 species of mammals, 400 of birds, 157 reptiles, 84 species of fish and 5,000 different insect species.</correct>
+		<incorrect>Sorry, please try again.</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Moremi Game Reserve</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Chobe National Park</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>The Central Kalahari Game Reserve</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Nxai Pan National Park</data>
+	</question>
+	<question>
+		<type>12</type>
+		<data>24</data>
+		<data>Makgadikgadi National Park</data>
+	</question>
+	<finish>Congratulations, you have successfully completed Chapter 2: Destination Botswana and another portion of the Safari Master&#8482; Exam.</finish>
+</quiz>

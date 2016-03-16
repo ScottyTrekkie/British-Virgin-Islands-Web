@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url("../content/images/background-videopage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.menu-offset {
+    margin-top: 100px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  min-height: calc(100% - 100px);
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.column-header {
+  flex-grow: 0;
+  margin: 0;
+  margin-left: 3em;
+}
+
+.tile {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* als het scherm te smal wordt dan worden de video's onder elkaar geplaatst */
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+}

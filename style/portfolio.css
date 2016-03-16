@@ -1,0 +1,44 @@
+.portfolio-collapsed-button {
+    height: 700px;
+    display: block;
+    background-image: url("../content/images/placeholder.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: height 300ms;
+}
+
+.portfolio-collapsed-button.collapsed {
+    height: 150px;
+}
+
+.portfolio-imgAtBottom {
+    background-position: center bottom;
+}
+
+.portfolio-button {
+    position: relative;
+}
+
+.portfolio-button-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.25em;
+    padding-right: 0em;
+}
+
+.tab-content{
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px);
+}
+
+.tabpanel{
+    width: 60%;
+}
+
+.menu-offset {
+    margin-top: 80px;
+    width: 100%;
+}
+

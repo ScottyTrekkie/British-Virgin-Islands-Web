@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question>
+		<type>13</type>
+		<data>aQFL3vXzNDw</data>
+	</question>
+	<question>
+		<type>1</type>
+		<question>The first question is an easy one. African Bush Camps runs camps in different countries. Do you know where?</question>
+		<data>Botswana &amp; South Africa</data>
+		<data>Namibia &amp; Botswana</data>
+		<data>Zimbabwe &amp; Zambia</data>
+		<data>Zimbabwe &amp; Botswana</data>
+		<data>Zimbabwe &amp; South Africa</data>
+		<answer>4</answer>
+		<correct>That's right. At this moment, African Bush Camps runs camps in Zimbabwe and Botswana. In the (near) future, other countries will be added to the list.</correct>
+		<incorrect>Incorrect. Please watch the video when you open the app. After you have done that, this one will be easy to answer!</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>20</data>
+		<data>About us</data>
+	</question>
+	<question>
+		<type>2</type>
+		<question>African Bush Camps aims to be an effective, professional and profitable tourism company that works in a sustainable and environmentally friendly manner, whilst seeking to empower local communities and to inspire others. What are therefore, among others, their corporate values?</question>
+		<data>Respect &amp; Integrity</data>
+		<data>Exceeding expectations</data>
+		<data>Environmental responsibility and community focus</data>
+		<data>Inspiring each other and those around us</data>
+		<data>To continue to establish reliable, attractive and unique product offerings</data>
+		<answer>true,true,true,true,true</answer>
+		<correct>That's right, and that is why guests enjoy a stay in one of the camps so much!</correct>
+		<incorrect>Close, but there is at least one more that is true.</incorrect>
+	</question>
+	<question>
+		<type>12</type>
+		<data>20</data>
+		<data>Our Safari Guides</data>
+	</question>
+	<finish>Congratulations, you have successfully completed Chapter 1: Our Story and passed the first portion of the Safari Master&#8482; Exam.&lt;br&gt;&lt;br&gt;The testing is scattered throughout the content while training versus the end, so you can space out learning to better fit your schedule. We realize it nearly impossible to take a cumulative exam when the training occurs over weeks or months.</finish>
+</quiz>

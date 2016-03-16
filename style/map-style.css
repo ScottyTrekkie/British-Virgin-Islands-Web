@@ -1,0 +1,18 @@
+html {
+    height: calc(100% - 50px);
+}
+body {
+    height: 100%;
+}
+.mainBody {
+    height: calc(100% - 50px);
+}
+
+#map {
+	position: relative;
+        width: 100%;
+        height: 100%;
+	margin-top: 50px;
+	background-color: #CCC;
+}
+ 

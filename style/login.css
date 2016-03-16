@@ -1,0 +1,139 @@
+/***********************
+  LOGIN MODAL FORM
+************************/
+
+.login-window p {
+	color: #888;
+	font-weight: normal;
+	font-size: 13.5pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.login-window .gray {
+	color: #888;
+}
+
+.login-window .orange {
+    color: #e2810e;
+}
+
+.login-window .small{
+	font-size: 11pt;
+}
+
+ .login-window .bold {
+	font-weight: bold;
+}
+
+.login-window #logo {
+	width:246px;
+	height:153px;
+	background-image: url('../content/images/logo.png');
+}
+
+.login-window  .modal-body {
+	min-height:70vh;
+	height: 100%;
+}
+
+.login-window .login-container {
+	display: table;	
+	height: 70vh;
+	width: 100%;
+}
+
+.login-window  .login-left {
+	display: table-cell;
+	height: 100%;
+	width: 246px;
+	border-right: 1px solid #ddd;
+}
+
+.login-window  .login-right {
+	display: table-cell;
+	height: 100%;
+	padding: 5% 5% 5% 5%;
+    vertical-align: middle;
+}
+
+
+/***********************
+  ORANGE BUTTONS
+************************/
+
+.login-window .round {
+	border-radius: 20px;
+}
+
+.login-window .btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.login-window .btn-primary.outline {
+    border: 2px solid #e2810e;
+    color: #e2810e;
+}
+.login-window .btn-primary.outline:hover, 
+.login-window .btn-primary.outline:focus, 
+.login-window .btn-primary.outline:active, 
+.login-window .btn-primary.outline.active, 
+.login-window .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    border-color: #e2810e;
+}
+
+.login-window .btn-primary.outline:active, 
+.login-window .btn-primary.outline.active {
+    border-color: #e2810e;
+    color: #ffffff;
+}
+
+.login-window .btn {
+	padding: 14px 24px;
+	border: 0 none;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.login-window .btn:focus, 
+.login-window .btn:active,
+.login-window .btn:active:focus, 
+.login-window .btn.active:focus {
+	outline: 0 none;
+}
+
+.login-window .btn-primary {
+	color: #fff;
+	background-color: #e2810e;
+	border-color: #e2810e;
+}
+.login-window .btn-primary:focus,
+.login-window .btn-primary.focus {
+	color: #fff;
+	background-color: #f59b00;
+	border-color: #e2810e;
+}
+.login-window .btn-primary:hover {
+	color: #fff;
+	background-color: #f59b00;
+	border-color: #e2810e;
+}
+.login-window .btn-primary:active,
+.login-window .btn-primary.active,
+.login-window .open > .dropdown-toggle.btn-primary {
+	color: #fff;
+	background-color: #f59b00;
+	border-color: #e2810e;
+}
+.login-window .btn-primary:active:hover,
+.login-window .btn-primary.active:hover,
+.login-window .open > .dropdown-toggle.btn-primary:hover,
+.login-window .btn-primary:active:focus,
+.login-window .btn-primary.active:focus,
+.login-window .open > .dropdown-toggle.btn-primary:focus,
+.login-window .btn-primary:active.focus,
+.login-window .btn-primary.active.focus,
+.login-window .open > .dropdown-toggle.btn-primary.focus {
+	color: #fff;
+	background-color: #f59b00;
+	border-color: #e2810e;
+}

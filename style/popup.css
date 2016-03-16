@@ -1,0 +1,202 @@
+.pop-up-correct .modal-dialog {
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-150px 0 0 -280px;
+	width:560px;
+	height:300px;
+	outline:rgb(95, 145, 70) solid thick;
+	border: 0px;
+}
+
+.pop-up-correct .modal-body {
+	height:300px;
+	background-color: rgb(224, 240, 214);
+}
+
+.pop-up-correct p {
+	color: rgb(95, 145, 70);
+	font-weight: normal;
+	font-size: 15pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pop-up-correct .btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.pop-up-correct .btn-primary.outline {
+    border: 2px solid rgb(78,190,165);
+    color: rgb(78,190,165);
+}
+
+.pop-up-correct .btn-primary.outline:hover, 
+.pop-up-correct .btn-primary.outline:focus, 
+.pop-up-correct .btn-primary.outline:active, 
+.pop-up-correct .btn-primary.outline.active, 
+.pop-up-correct .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    border-color: rgb(78,190,165);
+}
+
+.pop-up-correct .btn {
+	padding: 14px 24px;
+	border: 0 none;
+	border-bottom: 3px solid rgb(89,164,141);
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.pop-up-correct .btn:focus, 
+.pop-up-correct .btn:active,
+.pop-up-correct .btn:active:focus, 
+.pop-up-correct .btn.active:focus {
+	outline: 0 none;
+}
+
+.pop-up-correct .btn-primary {
+	color: #fff;
+	background-color: rgb(78,190,165);
+	border-color: rgb(89,164,141);
+}
+
+.pop-up-correct .btn-primary:focus,
+.pop-up-correct .btn-primary.focus,
+.pop-up-correct .btn-primary:hover,
+.pop-up-correct .btn-primary:active,
+.pop-up-correct .btn-primary.active,
+.pop-up-correct .open > .dropdown-toggle.btn-primary,
+.pop-up-correct .btn-primary:active:hover,
+.pop-up-correct .btn-primary.active:hover,
+.pop-up-correct .open > .dropdown-toggle.btn-primary:hover,
+.pop-up-correct .btn-primary:active:focus,
+.pop-up-correct .btn-primary.active:focus,
+.pop-up-correct .open > .dropdown-toggle.btn-primary:focus,
+.pop-up-correct .btn-primary:active.focus,
+.pop-up-correct .btn-primary.active.focus,
+.pop-up-correct .open > .dropdown-toggle.btn-primary.focus {
+	color: #fff;
+	background-color: rgb(89,164,141);
+	border-color: rgb(89,164,141);
+}
+
+.pop-up-incorrect .modal-dialog {
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-100px 0 0 -280px;
+	width:560px;
+	height:200px;
+	outline:rgb(155, 43, 41) solid thick;
+	border: 0px;
+}
+
+.pop-up-incorrect .modal-body {
+	height:200px;
+	background-color: rgb(243, 223, 222);
+}
+
+.pop-up-incorrect p {
+	color: rgb(155, 43, 41);
+	font-weight: normal;
+	font-size: 15pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pop-up-complete .modal-dialog {
+	overflow: hidden;
+	position: absolute;
+	top:50%;
+	left:50%;
+	width:700px;
+	height:600px;
+	margin:-300px 0 0 -280px;
+	border: 0px;
+}
+
+.pop-up-complete .modal-body {
+	height:600px;
+	border: 0;
+	display: inline-flex;
+}
+
+.pop-up-complete .content {
+    margin:auto;
+}
+
+.pop-up-complete p {
+	color: #666;
+	font-weight: normal;
+	font-size: 15pt;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pop-up-complete .check {
+	background: url('../content/images/check2.png');
+	background-size: 120px 120px;
+	width: 120px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pop-up-complete .btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.pop-up-complete .btn-primary.outline {
+    border: 1px solid rgb(78,190,165);
+    color: rgb(78,190,165);
+}
+
+.pop-up-complete .btn-primary.outline:hover, 
+.pop-up-complete .btn-primary.outline:focus, 
+.pop-up-complete .btn-primary.outline:active, 
+.pop-up-complete .btn-primary.outline.active, 
+.pop-up-complete .open > .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    border-color: rgb(78,190,165);
+}
+
+.pop-up-complete .btn {
+	padding: 14px 24px;
+	border: 0 none;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.pop-up-complete .btn.round {
+	border-radius: 24px;
+}
+
+.pop-up-complete .btn:focus, 
+.pop-up-complete .btn:active,
+.pop-up-complete .btn:active:focus, 
+.pop-up-complete .btn.active:focus {
+	outline: 0 none;
+}
+
+.pop-up-complete .btn-primary {
+	color: #fff;
+	background-color: rgb(134,204,0);
+	border-color: rgb(89,164,141);
+}
+
+.pop-up-complete .btn-primary:focus,
+.pop-up-complete .btn-primary.focus,
+.pop-up-complete .btn-primary:hover,
+.pop-up-complete .btn-primary:active,
+.pop-up-complete .btn-primary.active,
+.pop-up-complete .open > .dropdown-toggle.btn-primary,
+.pop-up-complete .btn-primary:active:hover,
+.pop-up-complete .btn-primary.active:hover,
+.pop-up-complete .open > .dropdown-toggle.btn-primary:hover,
+.pop-up-complete .btn-primary:active:focus,
+.pop-up-complete .btn-primary.active:focus,
+.pop-up-complete .open > .dropdown-toggle.btn-primary:focus,
+.pop-up-complete .btn-primary:active.focus,
+.pop-up-complete .btn-primary.active.focus,
+.pop-up-complete .open > .dropdown-toggle.btn-primary.focus {
+	color: #fff;
+	background-color: rgb(134,204,0);
+	border-color: rgb(89,164,141);
+}

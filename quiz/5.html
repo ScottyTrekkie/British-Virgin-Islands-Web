@@ -1,0 +1,48 @@
+<div class="container quiz-container" style="text-align:center;" ng-controller="DialCtrl" ng-cloak>
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h2>{{title}}</h2> 
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2 col-sm-offset-3">
+			<div class="btn-group-vertical" style="width:50px;">
+				<button ng-click="increase(0)" type="button" class="btn btn-secondary">
+					<span class="glyphicon glyphicon-plus"></span>
+				</button>
+				<input type="text" class="disabled" style="width:100%; text-align:center;" value="{{np[0]}}" readonly>
+				<button ng-click="decrease(0)" type="button" class="btn btn-secondary">
+					<span class="glyphicon glyphicon-minus"></span>
+				</button>
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="btn-group-vertical" style="width:50px;">
+				<button ng-click="increase(1)" type="button" class="btn btn-secondary">
+					<span class="glyphicon glyphicon-plus"></span>
+				</button>
+				<input type="text" class="disabled" style="width:100%; text-align:center;" value="{{np[1]}}" readonly>
+				<button ng-click="decrease(1)" type="button" class="btn btn-secondary">
+					<span class="glyphicon glyphicon-minus"></span>
+				</button>
+			</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="btn-group-vertical" style="width:50px;">
+				<button ng-click="increase(2)" type="button" class="btn btn-secondary">
+					<span class="glyphicon glyphicon-plus"></span>
+				</button>
+				<input type="text" class="disabled" style="width:100%; text-align:center;" value="{{np[2]}}" readonly>
+				<button ng-click="decrease(2)" type="button" class="btn btn-secondary">
+					<span class="glyphicon glyphicon-minus"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="pop-up-correct" style="text-align:center;">
+		<button type="button" class="btn btn-primary" ng-click="checkAnswer(getAnswer())">Submit</button>
+	</div>
+</div>
+
+

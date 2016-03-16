@@ -1,0 +1,18 @@
+<link href="./style/range.css" rel="stylesheet"> 
+
+<div class="container quiz-container" style="text-align:center;" ng-controller="FillInTheBlankCtrl" ng-cloak>
+	<div class="row">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h2>{{title}}</h2> 
+		</div>
+	</div>
+	<div class="row">
+		<label style="color: white; text-shadow: 2px 2px #000000;" for="usr">Fill in the blank:</label><br />
+		<input type="text" id="blank" value="{{value}}" ng-model="value">
+	</div>
+	<div class="row">
+		<div class="pop-up-correct" style="text-align:center;">
+			<button type="button" id="submit" class="btn btn-primary" ng-click="checkAnswer(getAnswer())">Submit</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+
+.mainBody{
+    margin: auto;
+    margin-top: 60px;
+}
+
+.centeredbox{
+    margin: auto;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.safariicon{
+    width: 80px;
+}
+
+.titletext{
+    width: 450px;
+}
+
+.box{
+    display: flex; 
+    justify-content: center;
+}

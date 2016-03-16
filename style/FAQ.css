@@ -1,0 +1,65 @@
+
+
+.questionbox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.Q{
+    color: black;
+    text-align: center;
+}
+
+.Qtext{
+    color: black;
+    text-align: center;
+}
+
+.imagebox{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.separatorimage{
+    width: 150px;
+}
+
+#round-button {
+        position: fixed;
+	width:100px;
+        height: 100px;
+        bottom: 20px;
+        left: 10px;
+        
+}
+.round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:0px solid #cfdcec;
+    overflow:hidden;
+    
+    background: orange; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+	background: darkorange;
+}
+.round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    
+    text-align:center;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}

@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-nov-2015, 9:19:38
+    Author     : Casper
+*/
+
+.progress{
+    position: fixed;
+    left: 50%;
+    margin-left: -20%;
+    z-index: 2000;
+    bottom: 20px;
+    width:40%;
+}
+
+ #progressbar .ui-progressbar-value {
+    background-color: #c0a16b;
+  }
